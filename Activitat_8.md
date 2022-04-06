@@ -26,6 +26,8 @@
 
   Per poder canviar-lo has de fer la següent comanda dins de l’arxiu `/etc/my.cnf`.
   
+  `rocksdb-override-cf-options='cf1={compression=kZSTD;bottommost_compression=kZSTD;}'`
+  
   ![image](https://user-images.githubusercontent.com/80846119/161985145-703de284-3974-4d44-ad4e-1b1c185ece19.png)
 
   Reiniciem el sistema i fem un altre cop la comanda per veure amb que ho comprimeix.
