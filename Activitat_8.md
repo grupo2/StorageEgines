@@ -32,3 +32,8 @@
 
   Reiniciem el sistema i fem un altre cop la comanda per veure amb que ho comprimeix.
   
+  ![image](https://user-images.githubusercontent.com/80846119/161991881-b1004906-bb74-4882-b4ef-b1f74eb90fd4.png)
+
+  ![image](https://user-images.githubusercontent.com/80846119/161991895-7e4eba10-ec7a-48c8-bf64-a7fa2e13728e.png)
+
+
