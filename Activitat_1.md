@@ -54,7 +54,7 @@
   
   ![image](https://user-images.githubusercontent.com/80846119/161992323-695c4cc4-9ef7-41f7-b1e6-30d7e8882ac7.png)
   
-* Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer. Un     cop fet això torna a deixar el motor InnoDB per defecte.
+* Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer. Un     cop fet això torna a deixar el motor InnoDB per defecte. 
   
   ![image](https://user-images.githubusercontent.com/80846119/161992346-74809161-df5b-4449-83c7-ffe7d2be1384.png)
   
@@ -79,7 +79,7 @@
 
   Ara explicarem les següents metadades:
   
-  `INNODB_SYS_TABLES: Proporciona metadades sobre les taules d'InnoDB, que és equivalent a la informació de la taula SYS_TABLES al diccionari de dades d'InnoDB.
+  INNODB_SYS_TABLES: Proporciona metadades sobre les taules d'InnoDB, que és equivalent a la informació de la taula SYS_TABLES al diccionari de dades d'InnoDB.
 
   INNODB_SYS_COLUMNS: Proporciona metadades sobre les columnes de la taula InnoDB, que és equivalent a la informació de la taula SYS_COLUMNS al diccionari de dades InnoDB.
 
@@ -98,7 +98,7 @@
   INNODB_SYS_FOREIGN_COLS: Proporciona metadades sobre columnes de clau externa definides a la taula InnoDB, que és equivalent a la informació de la taula SYS_FOREIGN_COLS al diccionari de dades InnoDB.
 
   INNODB_SYS_VIRTUALLa taula proporciona metadades sobre la columna virtual produïda per InnoDB i la columna en què es basa la columna virtual produïda, equivalent a la informació de la taula SYS_VIRTUAL al diccionari de dades InnoDB.
-`
+
   
 * Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
   
