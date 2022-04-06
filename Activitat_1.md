@@ -50,10 +50,43 @@
     <br>
 
   
-* Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer. Un cop fet això torna a deixar el motor InnoDB per defecte.
+* Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM.
   
+  ![image](https://user-images.githubusercontent.com/80846119/161992323-695c4cc4-9ef7-41f7-b1e6-30d7e8882ac7.png)
   
+* Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer. Un     cop fet això torna a deixar el motor InnoDB per defecte.
   
+  ![image](https://user-images.githubusercontent.com/80846119/161992346-74809161-df5b-4449-83c7-ffe7d2be1384.png)
+  
+  ![image](https://user-images.githubusercontent.com/80846119/161992356-927958a9-a00e-40da-83de-afbce79744ca.png)
+
+  ![image](https://user-images.githubusercontent.com/80846119/161992373-83c3947e-dd62-41d5-8965-9258cefb4108.png)
+  
+* Mostra'n una captura de pantalla i indica què conté cada fitxer.
+
+  ![image](https://user-images.githubusercontent.com/80846119/161992441-06de27ed-496b-481c-b720-0d93e3123852.png)
+
+  
+* Un cop fet això torna a deixar el motor InnoDB per defecte.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/161992504-712bbe71-64f6-49e9-97c4-b80457e37ce9.png)
+
+* Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
+  
+  Un Deadlock succeeix quan dues o més transaccions intenten fer bloquejos de claus en ordre oposat, per exemple: consulta 1: bloquejar clau(1), bloquejar clau(2);       consulta 2: bloquejar clau(2), bloquejar clau(1);
+  
+  Sessió 1:
+  
+  ![image](https://user-images.githubusercontent.com/80846119/161992733-5f2dd5b9-3bd9-46d3-ae22-5686e91a02ba.png)
+
+  Sessió 2:
+  
+  ![image](https://user-images.githubusercontent.com/80846119/161992761-90bcef8c-f04a-4a5e-b476-1745ca6acea6.png)
+  
+  Resultat:
+  
+  ![image](https://user-images.githubusercontent.com/80846119/161992789-d9634e92-b4a4-407e-a4a2-fc0e116cf371.png)
+
 
   
   
