@@ -71,6 +71,35 @@
   
   ![image](https://user-images.githubusercontent.com/80846119/161992504-712bbe71-64f6-49e9-97c4-b80457e37ce9.png)
 
+* A partir de MySQL apareixen els schemas de metadades i informació guardats amb InnoDB. Busca informació d'aquests schemas. Indica quin és l'objectiu de cadascun d'ells i posa'n un exemple d'ús.
+
+  Podem consultar les metadades amb la següent comandes.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/162065139-c22bef72-aeb8-4b64-aa81-562e0ba2b3a3.png)
+
+  Ara explicarem les següents metadades:
+  
+  `INNODB_SYS_TABLES: Proporciona metadades sobre les taules d'InnoDB, que és equivalent a la informació de la taula SYS_TABLES al diccionari de dades d'InnoDB.
+
+  INNODB_SYS_COLUMNS: Proporciona metadades sobre les columnes de la taula InnoDB, que és equivalent a la informació de la taula SYS_COLUMNS al diccionari de dades InnoDB.
+
+  INNODB_SYS_INDEXES: Proporciona metadades sobre l'índex InnoDB, que és equivalent a la informació a la taula SYS_INDEXES al diccionari de dades InnoDB.
+
+  INNODB_SYS_FIELDS: Proporciona metadades sobre les columnes (camps) clau de l'índex InnoDB, que és equivalent a la informació de la taula SYS_FIELDS al diccionari de dades InnoDB.
+
+  INNODB_SYS_TABLESTATS: Proporciona una vista de la informació d'estat de baix nivell de la taula InnoDB, que deriva de l'estructura de dades en memòria. No hi ha una taula interna del sistema InnoDB corresponent.
+
+  INNODB_SYS_DATAFILES: Informació proporcional de ruta de fitxer de dades per a cada taula i espai de taula general d'InnoDB, que és equivalent a la informació de la taula SYS_DATAFILES al diccionari de dades d'InnoDB.
+
+  INNODB_SYS_TABLESPACES: Informació proporcional sobre InnoDBEspai de taula separadaYEspai de taula generalLes metadades són equivalents a la informació a la taula SYS_TABLESPACES al diccionari de dades InnoDB.
+
+  INNODB_SYS_FOREIGN: Proporciona metadades sobre les claus externes definides a la taula InnoDB, que és equivalent a la informació a la taula SYS_FOREIGN al diccionari de dades InnoDB.
+
+  INNODB_SYS_FOREIGN_COLS: Proporciona metadades sobre columnes de clau externa definides a la taula InnoDB, que és equivalent a la informació de la taula SYS_FOREIGN_COLS al diccionari de dades InnoDB.
+
+  INNODB_SYS_VIRTUALLa taula proporciona metadades sobre la columna virtual produïda per InnoDB i la columna en què es basa la columna virtual produïda, equivalent a la informació de la taula SYS_VIRTUAL al diccionari de dades InnoDB.
+`
+  
 * Posa un exemple que produeix un DEADLOCK i mostra-ho al professor.
   
   Un Deadlock succeeix quan dues o més transaccions intenten fer bloquejos de claus en ordre oposat, per exemple: consulta 1: bloquejar clau(1), bloquejar clau(2);       consulta 2: bloquejar clau(2), bloquejar clau(1);
